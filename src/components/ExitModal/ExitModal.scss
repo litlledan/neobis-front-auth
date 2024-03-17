@@ -1,0 +1,49 @@
+.ExitModal{
+&__overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000080 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+&__content{
+    width: 375px;
+    height: 274px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}    
+&__content-p{
+    font-size: 20px;
+    color: #212121;
+}
+&__content-text{
+    font-size: 16px;
+    color: #767676;
+}
+&__content-btn{
+    width: 311px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background: #212121;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin:15px 30px;
+}
+&__content-n{
+    font-size: 16px;
+    color: #292929;
+    cursor: pointer;
+}
+&__link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+}

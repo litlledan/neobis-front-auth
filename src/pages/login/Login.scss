@@ -1,0 +1,86 @@
+.login img {
+  margin-top: 50px;
+  width: 650px;
+}
+
+.login__form-p {
+    font-size: 32px;
+    color: #212121;
+    margin-left: 70px;
+  }
+
+.login__form-input {
+    width: 343px;
+    height: 52px;
+    border-radius: 12px;
+    border: none;
+    background: #F8F8F8;
+    outline: none;
+    padding-left: 13px;
+  }
+
+  .login__form-input::placeholder {
+    font-size: 16px;
+    color: #767676;
+  }
+
+  .login__form-password {
+    margin-top: 15px;
+    position: relative;
+  }
+
+  .login__form-eye {
+    width: 21px !important;
+    height: 24px !important;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    margin-left: -20px;
+  }
+
+  .login__form-btn {
+    width: 343px;
+    height: 52px;
+    border-radius: 12px;
+    background: #292929;
+    color: #F8F8F8;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin-top: 60px;
+  }
+
+  .login__form-text {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #212121;
+    margin-left: -350px;
+  }
+
+  .login__form-link {
+    text-decoration: none;
+  }
+
+  .login__form-error {
+    width: 343px;
+    border-radius: 12px;
+    border: 1px solid red;
+    position: absolute;
+    top: 10%;
+    margin-left: 800px;
+  }
+
+  .login__form-error-text {
+    color: red;
+    margin: 15px;
+  }
+
+  .loginCom {
+    display: flex;
+    flex-direction: column;
+    margin-left: 790px;
+    margin-top: -550px;
+  }

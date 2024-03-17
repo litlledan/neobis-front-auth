@@ -1,0 +1,33 @@
+.Welcom{
+&__container{
+    width: 1200px;
+    margin: 0 auto;
+}
+&__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -80px;
+}
+&__content-h{
+    font-size: 32px;
+    color:#212121;
+}
+&__content-p{
+    font-size: 20px;
+    color: #212121;
+    margin: 0px 0px 20px;
+}
+&__content-img{
+    // margin-top: 20px;
+}
+&__content-btn{
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #292929;
+    margin: 30px;
+    cursor: pointer;
+}
+}
